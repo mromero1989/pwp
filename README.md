@@ -1,2 +1,2 @@
 # pwp
-Personal Website Project
+Personal Website Project- An exercise in front end web design and development.
