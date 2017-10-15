@@ -19,7 +19,7 @@
 			<li>Race: Probably white</li>
 			<li>Scenario: He is on the site to learn more about the person he might hire.</li>
 			<li>Need to know: He needs to see an informative history, portfolio, and contact info about the future employee.</li>
-			<li>Feature: Simple site, easily navigatated, multi platform.</li>
+			<li>Feature: Simple site, easily navigated, multi platform.</li>
 		</ul>
 	</body>
 </html>
