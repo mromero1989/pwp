@@ -11,7 +11,7 @@
 		<p>This website will be for professional peers, developers and potential employers.</p>
 		<h1 style="font-family:Helvetica;">Goal</h1>
 		<p>My goal is to showcase my work to obtain an internship or full-time employment.</p>
-		<h1>Persona</h1>
+		<h1 style="font-family:Helvetica;">Persona</h1>
 		<ul>
 			<li>Name:Adam</li>
 			<li>Age: 42</li>
