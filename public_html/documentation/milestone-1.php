@@ -16,8 +16,9 @@
 			<li>Name:Adam</li>
 			<li>Age: 42</li>
 			<li>Job: Programmer</li>
-			<li>Race: Probably white</li>
-			<li>Scenario: He is on the site to learn more about the person he might hire.</li>
+			<li>Race: White</li>
+			<li>Technology: iMac, iPhone</li>
+			<li>Scenario: Adam is looking for someone to hire for his tech start-up. He is knowledgeable about computing and programming. He is looking for actual clean code writing rather than work experience.</li>
 			<li>Need to know: He needs to see an informative history, portfolio, and contact info about the future employee.</li>
 			<li>Feature: Simple site, easily navigated, multi platform.</li>
 		</ul>
