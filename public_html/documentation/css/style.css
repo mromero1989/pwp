@@ -5,28 +5,18 @@ html,body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-}
-
-body {
 	background-color: black;
 }
 
-h1 {
-	font-family: Helvetica;
-}
-
 h1, p {
+	font-family: Helvetica;
 	text-align: center;
 	color: white;
-}
-
-p {
-	font-family: Helvetica;
 }
 /* this is for the header image*/
 div#wrapperHeader div#header {
 	width: 3000px;
-	height: 50px;
+	height: 120px;
 	margin: 50 auto;
 	background-attachment: fixed;
 }
