@@ -11,3 +11,16 @@ Your project looks great here - and I can see you've successfully wrestled the C
 There is one major error with the HTML: the entire `<header>` tag and all it's contents should be inside the `<body>`.
 
 Overall - nice work here. Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin work on [Milestone 2a](https://bootcamp-coders.cnm.edu/projects/personal/milestone-two/).
+
+## Milestone 2&alpha; Feedback
+These wireframes are good start. There are some issues with scale and alignment, but overall they illustrate the general direction for your UI. 
+
+When I talk about scale, I mean the size and proportions put on the UI elements themselves. Things are looking good scale-wise on mobile, but the page headings are looking a bit small on the desktop layout. I would also make sure the elements are aligned and spaced consistently on desktop too.
+
+On the mobile view, the only area I would consider altering is the text content around the contact form. It may be a bit narrow on extra-small screens - so just be careful there.
+
+Bootstrap has a built-in image carousel that you can use, but I think there are better 3rd party open-source options out there like the [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) or [Flickity](https://flickity.metafizzy.co/). These are swipe enabled on mobile too. 
+
+An alternative approach to a carousel for your Portfolio section could be to include image thumbnails that pop up into a lightbox gallery. I mention it because sometimes image sliders don't work out as planned. [FancyBox 3](http://fancyapps.com/fancybox/3/) provides a good plugin.
+
+Overall it looks like you have a clear direction for your project layout. Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on your PWP.
