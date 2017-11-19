@@ -3,10 +3,17 @@
 }
 
 img.resize {
-	width: 250px;
+	width: 400px;
 	height: auto;
 	/*position: fixed;*/
 	display: block;
 	margin: 0 auto;
 }
 
+.nav-item {
+	font-size: small;
+}
+
+a:hover {
+	background-color: white;
+}
