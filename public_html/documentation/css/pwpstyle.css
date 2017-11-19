@@ -1,0 +1,12 @@
+* {
+	background-color: #2B2ACE;
+}
+
+img.resize {
+	width: 250px;
+	height: auto;
+	/*position: fixed;*/
+	display: block;
+	margin: 0 auto;
+}
+

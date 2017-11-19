@@ -15,5 +15,23 @@
 		<title>Build & Work</title>
 	</head>
 
+	<body>
 
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<img src="documentation/images/build.jpeg" rel="icon" alt="logo" class="resize"/>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="row">
+
+			</div>
+		</div>
+	</body>
 </html>
+
