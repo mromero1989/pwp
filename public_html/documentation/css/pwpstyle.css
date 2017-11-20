@@ -8,6 +8,7 @@ img.resize {
 	/*position: fixed;*/
 	display: block;
 	margin: 0 auto;
+	margin-top: 65px;
 }
 
 .nav-item {
@@ -17,3 +18,35 @@ img.resize {
 a:hover {
 	background-color: white;
 }
+
+.aboutmeresize {
+	width: 400px;
+	height: auto;
+	/*position: fixed;*/
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.portfolioresize {
+	width: 400px;
+	height: auto;
+/*position: fixed;*/
+	display: block;
+	margin: 0 auto;
+}
+
+.contactresize {
+	width: 400px;
+	height: auto;
+/*position: fixed;*/
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
