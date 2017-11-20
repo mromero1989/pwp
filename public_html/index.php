@@ -51,7 +51,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-12">
 						<img src="documentation/images/aboutme.jpg" rel="icon" alt="logo" class="aboutmeresize"/>
-						<div class="card">
+						<div class="card text-center">
 							<div class="card-body text-white">
 								Lorem ipsum dolor amet single-origin coffee organic lumbersexual roof party subway tile man bun fam pug cornhole squid shaman church-key you probably haven't heard of them small batch. Mlkshk semiotics next level palo santo. Venmo gentrify shaman echo park, yr tilde four dollar toast locavore fingerstache gastropub synth activated charcoal glossier bicycle rights aesthetic. Lyft franzen microdosing craft beer, cronut prism ugh artisan tofu echo park normcore cred pabst brooklyn chartreuse. Skateboard keytar direct trade, next level selvage YOLO schlitz cred etsy vinyl irony selfies copper mug poke sriracha.
 							</div>
@@ -102,7 +102,6 @@
 						<img src="documentation/images/contact.jpg" alt="logo" class="aboutmeresize portfolioresize contactresize"/>
 						<div class="container">
 							<form id="contact" action="" method="post">
-								<h3>Contact Us!</h3>
 								<fieldset>
 									<input placeholder="Your name" type="text" tabindex="1" required autofocus>
 								</fieldset>

@@ -37,11 +37,12 @@ a:hover {
 }
 
 .contactresize {
-	width: 400px;
+	width: 300px;
 	height: auto;
 /*position: fixed;*/
 	display: block;
 	margin: 0 auto;
+
 }
 
 /*contact form from codepen*/
