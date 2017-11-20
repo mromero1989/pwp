@@ -56,7 +56,6 @@
 								Lorem ipsum dolor amet single-origin coffee organic lumbersexual roof party subway tile man bun fam pug cornhole squid shaman church-key you probably haven't heard of them small batch. Mlkshk semiotics next level palo santo. Venmo gentrify shaman echo park, yr tilde four dollar toast locavore fingerstache gastropub synth activated charcoal glossier bicycle rights aesthetic. Lyft franzen microdosing craft beer, cronut prism ugh artisan tofu echo park normcore cred pabst brooklyn chartreuse. Skateboard keytar direct trade, next level selvage YOLO schlitz cred etsy vinyl irony selfies copper mug poke sriracha.
 							</div>
 						</div>
-						</div>
 					</div>
 				</div>
 			</div>
