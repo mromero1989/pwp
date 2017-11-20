@@ -6,16 +6,12 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
 
-		<!--flickity slider-->
-		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
 		<link rel="stylesheet" href="documentation/css/pwpstyle.css"/>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-		<!--flickity js-->
-		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="https://use.fontawesome.com/21e80d15b3.js"></script>
 
 		<title>Build & Work</title>
 	</head>
@@ -76,14 +72,10 @@
 								<ol class="carousel-indicators">
 									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
 										<img class="d-block w-100" src="http://artfucksme.com/wp-content/uploads/2014/11/darkangel.gif" alt="First slide">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" src="http://artfucksme.com/wp-content/uploads/2014/11/Adam-Taylor_01_closer-look.gif" alt="Second slide">
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" src="http://artfucksme.com/wp-content/uploads/2014/11/Paul_Apal_kin_02.gif" alt="Third slide">
@@ -109,11 +101,45 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-12">
 						<img src="documentation/images/contact.jpg" alt="logo" class="aboutmeresize portfolioresize contactresize"/>
+						<div class="container">
+							<form id="contact" action="" method="post">
+								<h3>Contact Us!</h3>
+								<fieldset>
+									<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+								</fieldset>
+								<fieldset>
+									<input placeholder="Your Email Address" type="email" tabindex="2" required>
+								</fieldset>
+								<fieldset>
+									<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+								</fieldset>
+								<fieldset>
+									<input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+								</fieldset>
+								<fieldset>
+									<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+								</fieldset>
+								<fieldset>
+									<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+								</fieldset>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-12">
+						<button type="button" class="btn btn-ins text-white"><i class="fa fa-instagram left"></i> Instagram</button>
+						<button type="button" class="btn btn-fb text-white"><i class="fa fa-facebook left"></i> Facebook</button>
+						<button type="button" class="btn btn-li text-white"><i class="fa fa-linkedin left"></i> Linkedin</button>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
 
