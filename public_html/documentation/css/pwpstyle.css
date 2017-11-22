@@ -45,6 +45,10 @@ a:hover {
 
 }
 
+.navbar {
+	background-color: #2B2ACE;
+}
+
 /*contact form from codepen*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);

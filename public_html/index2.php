@@ -10,6 +10,7 @@
 
 		<div class="horizon scroll">
 			<img src="documentation/images/horizon.png" alt="" />
+
 		</div>
 		<div class="middle scroll">
 			<img src="documentation/images/middle.png" alt="" />
