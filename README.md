@@ -24,3 +24,15 @@ Bootstrap has a built-in image carousel that you can use, but I think there are 
 An alternative approach to a carousel for your Portfolio section could be to include image thumbnails that pop up into a lightbox gallery. I mention it because sometimes image sliders don't work out as planned. [FancyBox 3](http://fancyapps.com/fancybox/3/) provides a good plugin.
 
 Overall it looks like you have a clear direction for your project layout. Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on your PWP.
+
+## Milestone 2b Feedback
+Nice work so far. Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Keep up the good work. Here are some notes from our meeting below:
+
+- Replace the images with Google Font typeography.
+- Fix directory structure: move project assets out of /documentation
+- Slideshow Tip: size images to be consistent size/aspect ratio/orientation
+- Recommended Rellax.js library for parallax: https://dixonandmoe.com/rellax/
+- Note: If you plan on using additional JS libraries you might need the full version of jQuery, not the slim version.
+- On the `.card` class - apply a `transparent` background-color, white `border-color`, and use the `.text-white` class.
+- Good source for more advanced front-end experiments & tutorials: https://tympanus.net/codrops/ 
+- Alternative slideshow JS plugin: https://flickity.metafizzy.co/
