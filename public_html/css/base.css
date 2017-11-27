@@ -257,7 +257,7 @@ a.demo--current {
 	left: 50%;
 	bottom: 0;
 	text-align: center;
-	padding: 2em;
+	padding: 0.5em;
 }
 
 .slidenav__item {
@@ -319,7 +319,7 @@ a.demo--current {
 	background: var(--color-slink-hover-bg);
 }
 
-@media screen and (min-width: 55em) {
+@media screen and (min-width: 5em) {
 	.demos {
 		display: flex;
 		justify-self: end;
@@ -347,9 +347,9 @@ a.demo--current {
 	}
 }
 
-@media screen and (max-width: 10em) {
+@media screen and (max-width: 50em) {
 	body {
-		padding: 0 0 4em 0;
+		padding: 0 0 0em 0;
 	}
 	.content {
 		flex-direction: column;
@@ -358,7 +358,7 @@ a.demo--current {
 		padding-bottom: 10em;
 	}
 	.content--fixed {
-		position: relative;
+		/*position: relative;*/
 		z-index: 1000;
 		display: block;
 		padding: 0.85em;
@@ -389,3 +389,4 @@ a.demo--current {
 #contact {
 	padding-bottom: 1.5em;
 }
+
