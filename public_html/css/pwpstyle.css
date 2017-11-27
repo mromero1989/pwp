@@ -1,6 +1,3 @@
-* {
-	background-color: #2B2ACE;
-}
 
 img.resize {
 	width: 400px;
@@ -45,9 +42,9 @@ a:hover {
 
 }
 
-.navbar {
-	background-color: #2B2ACE;
-}
+/*.navbar {*/
+	/*background-color: #2B2ACE;*/
+/*}*/
 
 /*contact form from codepen*/
 
@@ -72,15 +69,15 @@ body {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+	background:#2B2ACE;
 }
-
-.container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
-}
+/*take out, use column sizing */
+/*.container {*/
+	/*max-width:400px;*/
+	/*width:100%;*/
+	/*margin:0 auto;*/
+	/*position:relative;*/
+/*}*/
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
