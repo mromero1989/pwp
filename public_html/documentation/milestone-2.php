@@ -18,9 +18,9 @@
 			<h3>Contact Form</h3>
 			<p>This lets the user contact me through a contact form. I will also have links to multiple 				social media. I will also have my information posted as well such as phone number and email. 	</p>
 			<h2>Desktop Wireframe</h2> <!--I need to fix somethings on here-->
-			<img src="images/pwpdesktopwireframe2.png" alt="desktop wireframe"/>
+			<img src="../assets/images/pwpdesktopwireframe2.png" alt="desktop wireframe"/>
 			<h2>Mobile Wireframe</h2>
-			<img src="images/pwpmobilewireframe.png" alt="mobile wireframe"/>
+			<img src="../assets/images/pwpmobilewireframe.png" alt="mobile wireframe"/>
 		</main>
 	</body>
 </html>
