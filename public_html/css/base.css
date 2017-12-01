@@ -94,15 +94,6 @@ a:focus {
 	outline: none;
 }
 
-.hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
-}
-
-
 main {
 	position: relative;
 	width: 100%;
@@ -154,12 +145,12 @@ main {
 	justify-self: start;
 }
 
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-}
+/*.codrops-header__title {*/
+	/*font-size: 1em;*/
+	/*font-weight: normal;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+/*}*/
 
 .demos {
 	position: relative;
@@ -390,3 +381,6 @@ a.demo--current {
 	padding-bottom: 1.5em;
 }
 
+#name {
+	width:100%;
+}
