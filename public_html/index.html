@@ -3,13 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="A slideshow that shows an animated SVG frame on the transitions between slides" />
-		<meta name="keywords" content="slideshow, javascript, frame, animation, svg, shape, path, web design" />
-		<meta name="author" content="Codrops" />
 
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
@@ -20,7 +17,9 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="js/jquery-validate.js"></script>
+
+		<script src="https://use.fontawesome.com/f75c8f006c.js"></script>
 
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -39,7 +38,7 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-							<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 								<li class="nav-item">
 									<a class="nav-link text-white" href="#"><span class="sr-only">(current)</span></a>
 								</li>
@@ -86,7 +85,7 @@
 								<div class="row">
 									<div class="col-xs-12 col-md-12">
 										<div class="container">
-											<form id="contact" action="" method="post">
+											<form id="contact" action="php/mailer.php" method="post" novalidate>
 												<fieldset>
 													<input placeholder="name" type="text" id="name" name="name" tabindex="1" required autofocus>
 												</fieldset>
@@ -97,12 +96,22 @@
 													<input placeholder="phone" type="tel" id="phone" name="phone" tabindex="3" required>
 												</fieldset>
 												<fieldset>
-													<input placeholder="massage" type="tel" id="message" name="message" tabindex="5" required>
+													<input placeholder="message" type="tel" id="message" name="message" tabindex="5" required>
 												</fieldset>
+												<!--google recaptcha-->
+												<div class="g-recaptcha" data-sitekey="6LeslToUAAAAAG1s1ktnY_cC3pmDcw_oHhxZAhyK"></div>
 												<fieldset>
-													<a class="slide__link" href="#">Send Away!</a>
+													<!--<a class="slide__link" type="submit" href="#">Send Away!</a>-->
+													<button class="btn btn-success slide__link" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+													<button class="btn btn-warning slide__link" type="reset"><i class="fa fa-ban"></i> Reset</button>
 												</fieldset>
 											</form>
+											<!--empty area for form error/success output-->
+											<div class="row">
+												<div class="col-xs-12">
+													<div id="output-area"></div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -110,17 +119,31 @@
 						</section>
 					</div>
 				</div>
-				<nav class="slidenav">
-					<button class="slidenav__item slidenav__item--prev">Previous</button>
-					<span>/</span>
-					<button class="slidenav__item slidenav__item--next">Next</button>
-					<button class="slidenav__item slidenac__item--prev text-white">Instagram</button>
-					<button class="slidenav__item slidenac__item--prev text-white">LinkedIn</button>
-					<button class="slidenav__item slidenac__item--prev text-white">Facebook</button>
+				<nav class="slidenav cool">
+					<button class="slidenav__item slidenav__item--prev pad">Previous</button>
+						<span>/</span>
+					<button class="slidenav__item slidenav__item--next pad2">Next</button>
+					<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-instagram" href="https://www.facebook.com/" role="button" target="_blank">
+						<span class="fa fa-instagram"></span>
+					</a>
+					<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-linkedin" href="https://www.facebook.com/" role="button" target="_blank">
+						<span class="fa fa-linkedin"></span>
+					</a>
+					<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-facebook" href="https://www.facebook.com/" role="button" target="_blank">
+						<span class="fa fa-facebook"></span>
+					</a>
 				</nav>
 			</div>
 		</main>
-
+		<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-instagram" href="https://www.facebook.com/" role="button" target="_blank">
+			<span class="fa fa-instagram"></span>
+		</a>
+		<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-linkedin" href="https://www.facebook.com/" role="button" target="_blank">
+			<span class="fa fa-linkedin"></span>
+		</a>
+		<a class="slidenav__item slidenav__item--prev text-white pad3 ml-5 btn btn-social-icon btn-facebook" href="https://www.facebook.com/" role="button" target="_blank">
+			<span class="fa fa-facebook"></span>
+		</a>
 
 		<script src="js/demo.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
